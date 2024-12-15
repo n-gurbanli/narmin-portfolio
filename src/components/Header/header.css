@@ -1,0 +1,26 @@
+.navbar-custom {
+  background-color: var(--navbar-bg-color) !important;
+  padding: var(--navbar-padding);
+}
+
+.navbar-custom .nav-link {
+  padding: var(--nav-link-padding);
+  font-family: var(--font-family-body);
+  color: var(--navbar-text-color);
+  text-transform: uppercase;
+  padding: 1.5em;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: var(--navbar-hover-color);
+}
+
+.navbar-toggler.collapsed {
+  width: 15% !important;
+}
+
+.mobile-body {
+  background-color: var(--navbar-bg-color);
+}

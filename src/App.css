@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --navbar-bg-color: #eee2dc;
+  --navbar-text-color: #ab3b61;
+  --navbar-hover-color: #d45680;
+  --navbar-padding: 1.5em;
+  --nav-link-padding: 1rem;
+  --font-family-body: "Alegreya", serif;
+  --font-family-headings: "Exo 2", sans-serif;
+  --primary-bg-color: #edc7b8;
+  --primary-text-color: #113d6a;
+  --accent-color: #ab3b61;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: var(--font-family-body);
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  accent-color: var(--accent-color);
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color) !important;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--primary-bg-color) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-headings);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--primary-text-color);
+}
+
+.experience-btn {
+  padding: 10px;
+}
+h1 {
+  font-size: 3.2em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.5em;
+}
+h6 {
+  font-size: 1.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-headings);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 3.2em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.75em;
+}
+h5 {
+  font-size: 1.5em;
+}
+h6 {
+  font-size: 1.25em;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-section {
+  background-color: var(--primary-text-color);
+  padding: 3em 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

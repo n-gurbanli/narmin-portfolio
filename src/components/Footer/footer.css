@@ -1,0 +1,9 @@
+/* Footer.css */
+.footer-form {
+  max-width: 400px !important; /* Limit the form width */
+  margin: 0 auto; /* Center the form */
+}
+
+.footer {
+  background-color: var(--primary-text-color);
+}

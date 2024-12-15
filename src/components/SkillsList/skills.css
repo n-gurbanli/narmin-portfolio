@@ -1,0 +1,13 @@
+.skillbar-title span {
+  padding: 0 !important;
+}
+
+.skills-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skillbar-percent {
+  right: 300px !important;
+}
